@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мій сайт</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">МійСайт</div>
+        <ul class="menu">
+          <li><a href="#hero">Головна</a></li>
+          <li><a href="#posts">Пости</a></li>
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+        <div class="burger" id="burger">&#9776;</div>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h1>Ласкаво просимо на мій сайт!</h1>
+      <button id="fetch-posts-btn">Завантажити пости</button>
+    </section>
+
+    <section id="posts">
+      <h2>Останні пости</h2>
+      <ul id="posts-list"></ul>
+    </section>
+
+    <section id="about">
+      <h2>Про мене</h2>
+      <p>
+        Це приклад блогу на HTML, CSS та JS. Тут можна додати будь-який текст.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Зв’яжіться зі мною</h2>
+      <form id="form">
+        <input type="text" id="name" placeholder="Ваше ім’я" />
+        <input type="email" id="email" placeholder="Ваш email" />
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>Контакти: example@email.com | Місто, Україна</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
